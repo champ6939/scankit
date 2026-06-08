@@ -1,90 +1,214 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScanKit 服務條款</title>
     <style>
-        :root {
-            --bg-color: #f4f7f6;
-            --card-bg: rgba(255, 255, 255, 0.85);
-            --text-color: #333;
-            --accent-color: #007AFF;
-        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft JhengHei", sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
+            color: #333;
             max-width: 800px;
             margin: 0 auto;
-            background: var(--card-bg);
-            backdrop-filter: blur(15px);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
-            border: 1px solid rgba(255,255,255,0.3);
-        }
-        h1 { color: var(--accent-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-top: 0; }
-        h2 { color: #222; margin-top: 35px; font-size: 1.3em; border-left: 4px solid var(--accent-color); padding-left: 10px; }
-        .update-date { color: #666; font-style: italic; margin-bottom: 30px; font-size: 0.9em; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .price-table { width: 100%; margin: 20px 0; border-collapse: collapse; background: rgba(255,255,255,0.5); }
-        .price-table th, .price-table td { padding: 12px; border: 1px solid #ddd; text-align: left; }
-        .price-table th { background: #f0f0f0; }
-        .contact-box {
-            background: rgba(238, 246, 255, 0.6);
             padding: 20px;
-            border-radius: 12px;
-            margin-top: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 28px;
             text-align: center;
+            color: #111;
+            margin-bottom: 5px;
+        }
+        .date {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 16px;
+            color: #333;
+            margin-top: 20px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #444;
+            text-align: justify;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 15px;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .summary-box {
+            background-color: #f1f3f5;
+            border-left: 4px solid #6c757d;
+            padding: 15px;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0;
+            margin: 30px 0;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>服務條款</h1>
-    <p class="update-date">最後更新：西元 2026 年 5 月</p>
 
-    <h2>一、接受條款</h2>
-    <p>下載或使用 ScanKit 即表示您同意本服務條款。若您不同意，請勿使用本應用程式。</p>
+    <h1>ScanKit 服務條款</h1>
+    <div class="date">西元 2026 年 5 月首次發布並實施</div>
 
-    <h2>二、授權範圍</h2>
-    <p>本應用程式授予您個人、非商業、不可轉讓的使用授權。您不得複製、修改、反向工程或散布本應用程式。</p>
+    <p>歡迎使用 ScanKit 行動應用程式（以下稱「本App」）及其所提供的各項數位掃描、文字辨識（OCR）與延伸功能（以下稱「本服務」）。本服務條款構成用戶（以下稱「您」）與 ScanKit 開發團隊（以下稱「我們」）之間的法律協議。</p>
+    
+    <p>請在使用本App和本服務之前仔細閱讀本條款。當您下載、安裝、開始使用本App或接受本服務時，即表示您已完全閱讀、理解並同意接受所有條款之約束。若您不接受任何或全部條款，請立即停止使用本App及本服務並將其卸載。</p>
 
-    <h2>三、訂閱服務</h2>
-    <table class="price-table">
-        <tr><th>方案</th><th>費用</th></tr>
-        <tr><td>免費版</td><td>基本掃描與 OCR，使用次數受限</td></tr>
-        <tr><td>Pro 月費方案</td><td>NT$89／月 (解鎖全部功能)</td></tr>
-        <tr><td>Pro 年費方案</td><td>NT$590／年 (解鎖全部功能，含 7 天試用)</td></tr>
+    <hr>
+
+    <h2>一、 遵守服務條款</h2>
+    <ol>
+        <li>使用本服務之前，您需要先同意並遵守本服務條款。當您開始使用本服務時，即表示您同意本條款，以及我們在公開平台（包括但不限於本App、應用程式商店、官方網站或社群媒體）所公告的最新規範或注意事項。</li>
+        <li>若您未成年或受監護宣告，則您的法定代理人需閱讀並同意本條款。當您開始使用本App並接受本服務，即視為您與您的法定代理人均已完全同意本服務條款之所有內容。</li>
+    </ol>
+
+    <h2>二、 授權範圍與使用規範</h2>
+    <ol>
+        <li><strong>個人非商業授權：</strong> 本App授予您一個有限、非專屬、不可轉讓、不可轉授權且可撤銷的個人及非商業用途使用授權。</li>
+        <li><strong>智慧財產權保護：</strong> 本App的所有權、軟體結構、程式碼、介面設計、UI/UX 畫面及相關技術，均屬於我們或授權人所有，並受中華民國《著作權法》、《民法》及國際智慧財產權法律保護。</li>
+        <li><strong>禁止行為：</strong> 未經我們明確書面同意，您不得自行或協助第三人進行以下行為：
+            <ul>
+                <li>重製、重印、改編、改寫、編篡、反向工程、解譯、反組譯或企圖擷取本App之原始碼。</li>
+                <li>將本App之軟體、資訊或畫面，以任何帶有盈利、侵權行為或非公益性質的方式傳輸、散播或提供給任何第三方。</li>
+                <li>利用本App進行不當廣告、虛偽陳述、散布謠言、侵害他人權益或任何違反中華民國法律、社會秩序與善良風俗之行為。</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>三、 訂閱服務與費用說明</h2>
+    <p>本App提供免費版服務及付費訂閱服務（以下稱「Pro 方案」），具體資費與權益規範如下：</p>
+
+    <h3>1. 服務方案內容</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>方案名稱</th>
+                <th>費用基準</th>
+                <th>服務內容說明</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>免費版</strong></td>
+                <td>免費</td>
+                <td>提供基礎文件掃描與 OCR 文字辨識功能，惟單日/單次使用次數受到系統限制。</td>
+            </tr>
+            <tr>
+                <td><strong>Pro 月費方案</strong></td>
+                <td><strong>NT$ 89</strong> ／月</td>
+                <td>解鎖全部高級功能，移除使用次數限制。</td>
+            </tr>
+            <tr>
+                <td><strong>Pro 年費方案</strong></td>
+                <td><strong>NT$ 590</strong> ／年</td>
+                <td>解鎖全部高級功能，移除限制，<strong>含 7 天免費試用期</strong>。</td>
+            </tr>
+        </tbody>
     </table>
-    <p><strong>自動續費說明：</strong>訂閱將於到期前 24 小時自動續費。費用由 Apple ID 扣取。您可隨時至「設定」→「Apple 帳號」→「訂閱」取消。取消後，權益持續至當期結束，不提供部分退款。</p>
 
-    <h2>四、使用者責任</h2>
-    <p>您同意不將本應用程式用於任何非法用途，包括：掃描、複製受版權保護之文件；偽造文件；侵害他人隱私權。</p>
+    <h3>2. 自動續費與扣款說明</h3>
+    <ul>
+        <li><strong>自動續費機制：</strong> 所有 Pro 方案均採自動續費制。訂閱將於當前計費週期到期前 <span class="highlight">24 小時內</span>自動進行續期並扣款。</li>
+        <li><strong>扣款管道：</strong> 相關訂閱費用將由 Apple 系統直接透過您的 <strong>Apple ID</strong> 綁定之支付方式進行扣取。</li>
+    </ul>
 
-    <h2>五、免責聲明</h2>
-    <p>本應用程式之 OCR 辨識結果僅供參考。開發者不對辨識錯誤所造成之損失負責。本應用程式以「現狀」提供，不提供任何形式之明示或默示擔保。</p>
+    <h3>3. 取消訂閱與退款規範</h3>
+    <ul>
+        <li><strong>取消路徑：</strong> 您可隨時至您的 iOS 系統進行取消訂閱，路徑為：<strong>「設定」 → 「Apple 帳號」 → 「訂閱」</strong>，並在當期結束前至少 24 小時關閉自動續訂功能。</li>
+        <li><strong>權益延續：</strong> 取消訂閱後，您的 Pro 權益將持續有效至當前已付費計費週期結束為止。</li>
+        <li><strong>退款限制：</strong> 除平台（Apple）政策另有明文規定外，<span class="highlight">我們不對任何已扣款之當期費用提供部分退款、比例退款或現金退回服務。</span></li>
+    </ul>
 
-    <h2>六、服務中斷</h2>
-    <p>開發者保留隨時修改、暫停或終止服務之權利，並於可能情況下提前通知使用者。</p>
+    <h2>四、 使用者責任</h2>
+    <p>您承諾遵守中華民國（台灣）法律及您所在國家/地區之法令。您同意不將本App用於任何非法用途，包括但不限於：</p>
+    <ol>
+        <li>掃描、複製、辨識或散布受版權保護且未經授權之商業文件、書籍或圖片。</li>
+        <li>偽造、變造各類政府公文、身份證明文件、有價證券、商業合約或其他法律文件。</li>
+        <li>惡意掃描他人私密或機密文件，進而侵害他人隱私權、商業秘密或智慧財產權。</li>
+        <li>若因您的違法使用行為導致任何民事、刑事或行政責任，均由您自行承擔，與我們概無關係。</li>
+    </ol>
 
-    <h2>七、準據法</h2>
-    <p>本條款依中華民國法律解釋與執行。任何爭議應提交臺灣臺中地方法院為第一審管轄法院。</p>
+    <h2>五、 免責聲明</h2>
+    <ol>
+        <li><strong>技術限制：</strong> 本App所提供之 OCR（光學字元辨識）技術受限於拍攝角度、光線、字體及印刷品質等客觀因素，<strong>辨識結果僅供參考，我們無法保證其絕對 100% 精準無誤。</strong></li>
+        <li><strong>損失免責：</strong> 使用者在採用辨識結果進行商務、學術或法律用途前，有義務自行核對原件。<strong>開發者對於因辨識錯誤、資訊遺漏、或系統誤判所造成之任何直接、間接、附帶、衍生性之損失或損害，概不負任何賠償責任。</strong></li>
+        <li><strong>現狀提供：</strong> 本App及本服務係以「現狀（As Is）」及「現有（As Available）」基礎提供。在法律允許的最大範圍內，我們不提供任何形式之明示或默示擔保，包括但不限於對特定用途之適用性、商業適售性或系統無故障之擔保。</li>
+    </ol>
 
-    <h2>八、條款變更</h2>
-    <p>若本服務條款有所變更，我們將於應用程式內通知您。繼續使用即表示您接受更新後的條款。</p>
+    <h2>六、 服務中斷、變更與終止</h2>
+    <ol>
+        <li><strong>暫停與中斷：</strong> 當發生以下情形時，我們有權隨時暫停或中斷提供本服務之部分或全部，使用者不得因此要求任何補償或賠償：
+            <ul>
+                <li>伺服器、雲端硬體或系統進行必要之定期或緊急維護時。</li>
+                <li>遭遇突發性之電信設備故障、網路中斷或不可抗力之天災、罷工、戰爭時。</li>
+                <li>本App所整合之第三方雲端或 API 服務異常，導致功能無法正常運作時。</li>
+            </ul>
+        </li>
+        <li><strong>服務終止：</strong> 我們保留隨時隨地修改、暫停、或終止營運本App之權利。若有重大變更或決定中止營運，我們將於可能的情況下提前於 App 內或應用程式商店進行公告，無義務逐一個別通知用戶。</li>
+    </ol>
 
-    <div class="contact-box">
-        <p>如有任何問題，請聯絡：<a href="mailto:astralins40@gmail.com">astralins40@gmail.com</a></p>
-    </div>
+    <h2>七、 損害賠償</h2>
+    <p>如您有任何違反法律或本服務條款任一項之行為，導致我們、相關人員、合作夥伴或協力單位遭受損害、財產損失或產生訴訟費用（包括但不限於民刑事程序費用、律師費、行政罰鍰），您應承擔完全之損害賠償責任及相關費用。</p>
+
+    <h2>八、 條款變更</h2>
+    <p>我們保留隨時修改本服務條款之權利。條款更新後，我們將於應用程式內（或透過更新公告）通知您，建議您定期查看。<strong>若您在條款修改後繼續使用本App，即視為您已完全接受並同意遵守更新後的服務條款。</strong> 如果您不同意新版條款，請立即停止使用本App。</p>
+
+    <h2>九、 準據法與管轄法院</h2>
+    <p>本服務條款之解釋、效力、適用及執行，均依<strong>中華民國法律</strong>為準據法。因本服務條款或使用本App所引起之任何法律爭議、訴訟或糾紛，雙方應先本於誠信原則協商解決；如協商不成而涉訟，<strong>雙方同意以臺灣臺中地方法院為第一審管轄法院</strong>。</p>
+
+    <h2>十、 聯絡我們</h2>
+    <p>如果您對本服務條款、隱私保障或本App有任何疑問、意見回饋或檢舉申訴，請透過以下電子郵件信箱與我們聯絡：</p>
+    <ul>
+        <li><strong>聯絡信箱：</strong> <a href="mailto:astralins40@gmail.com">astralins40@gmail.com</a></li>
+    </ul>
+
 </div>
 
 </body>
